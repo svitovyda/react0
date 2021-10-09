@@ -1,0 +1,42 @@
+{
+  "name": "react0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Svitovyda <svitovyda@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf lib/*",
+    "build": "webpack",
+    "dev": "webpack serve",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/react": "^17.0.27",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-rxjs": "^3.3.7",
+    "html-webpack-plugin": "^5.3.2",
+    "husky": ">=6",
+    "lint-staged": "^11.2.1",
+    "prettier": "^2.4.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.3",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  }
+}
