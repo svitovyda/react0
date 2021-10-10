@@ -4,5 +4,5 @@
   "tabWidth": 2,
   "singleQuote": false,
   "trailingComma": "none",
-  "jsxBracketSameLine": false
+  "bracketSameLine": false
 }

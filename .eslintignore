@@ -1,4 +1,6 @@
 **/gen/*
+**/output/*
+**/coverage/*
 **/__*
 *.d.ts
 *.json

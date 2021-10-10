@@ -5,16 +5,20 @@
   "author": "Svitovyda <svitovyda@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "clean": "rimraf *.tsbuildinfo build lib src/gen lib",
+    "clean": "rimraf *.tsbuildinfo build lib",
+    "clean:full": "yarn clean && rimraf output coverage node-modules && jest --clearCache",
     "build": "webpack --mode production",
-    "test:prettier": "prettier './src/**/*.{ts,tsx}' --list-different",
-    "test:eslint": "eslint --cache --format=pretty --ignore-pattern 'src/gen/**' --ignore-pattern '/**/__*' './src/**/*.{ts,tsx}'",
-    "dev": "webpack serve --open",
-    "test:unit": "jest",
-    "test:unit:ci": "yarn test:unit --coverage",
+    "check:prettier": "prettier './src/**/*.{ts,tsx}' --list-different",
+    "check:eslint": "eslint --cache --format=pretty --ignore-pattern 'src/gen/**' --ignore-pattern '/**/__*' './src/**/*.{ts,tsx}'",
+    "start": "webpack serve --open",
+    "test": "jest",
+    "test:full": "yarn test --coverage",
     "fix:prettier": "prettier --write './src/**/*.{ts,tsx}'"
   },
   "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
