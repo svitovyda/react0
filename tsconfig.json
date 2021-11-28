@@ -2,8 +2,8 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Create 0 React App",
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "es6"], // "esnext"
-    "module": "commonjs", // "esnext"
+    "lib": ["dom", "dom.iterable", "es6"],
+    "module": "commonjs",
     "target": "es5",
     "rootDir": ".",
     "outDir": "./lib/",
@@ -12,7 +12,7 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
-    "jsx": "react", // react-jsx
+    "jsx": "react",
     "moduleResolution": "node",
     "sourceMap": true,
     "removeComments": true,
