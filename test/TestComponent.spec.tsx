@@ -1,7 +1,6 @@
-
+import { TestComponent } from "../src/TestComponent";
 import { render, screen } from "@testing-library/react";
 import * as React from "react";
-import { TestComponent } from "../src/TestComponent";
 
 describe("TestComponent", () => {
   it("has displayName", () => {

@@ -8,16 +8,16 @@ Code is formatted by `prettier` and verified by `ESLint` before committing. Proj
 testing and code coverage.
 
 ## Requires
-- `node v16.10.0` (works on 12 too)
+- `node v20.10.0` (works on 18 too)
 - `yarn v1.22.10`
 
 optional - `http-server` npm package (I used `13.0.2`)
 
 ## Uses
 - `react` with `emotion` styling
-- `webpack` module bundler with `ts-loader` for `Typescript` compillation
+- `webpack` module bundler with `babel` for `Typescript` compilation
 - `yarn` package manager
-- `Husky`/`Prettier`/`ESLint` code/formatting checking
+- `LeftHook`/`Prettier`/`ESLint` code/formatting checking
 - `jest` unit testing
 
 ## How to use

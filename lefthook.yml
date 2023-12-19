@@ -1,0 +1,20 @@
+# EXAMPLE USAGE
+# Refer for explanation to following link:
+# https://github.com/evilmartians/lefthook/blob/master/docs/full_guide.md
+
+pre-push:
+  commands:
+    check-dependencies:
+      run: yarn check-dependencies && git add dependencies.json && git commit --amend --no-verify --no-edit
+    compile:
+      run: yarn compile
+    eslint:
+      run: yarn check:lint
+    test:
+      run: yarn test --silent
+
+pre-commit:
+  commands:
+    prettier-lint:
+      glob: "{src/**/*.{mjs,cjs,js,ts,tsx,json},scripts/\\*.{js,mjs,cjs,ts,tsx,json},*.{js,mjs,cjs,ts,tsx,json}}"
+      run: yarn prettier --write {staged_files} && yarn eslint --fix && git add {staged_files}

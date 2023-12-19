@@ -8,3 +8,5 @@
 **/lib/*.js
 **/lib/**/*.js.
 webpack.config.js
+jest.config.js
+babel.config.js

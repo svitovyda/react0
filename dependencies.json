@@ -1,0 +1,783 @@
+{
+  "short": [
+    {
+      "name": "@emotion/core",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "11.0.0",
+        "time": "2020-11-12"
+      },
+      "repository": "https://github.com/emotion-js/emotion/tree/master/removed-packages/core",
+      "incidents": "",
+      "author": "mitchellhamilton",
+      "isDirectDependency": true,
+      "isDevDependency": false
+    },
+    {
+      "name": "@emotion/react",
+      "description": "> Simple styling in React.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "11.11.1",
+        "time": "2023-06-07"
+      },
+      "repository": "https://github.com/emotion-js/emotion.git#main",
+      "homepage": "https://github.com/emotion-js/emotion/tree/main#readme",
+      "incidents": "https://github.com/emotion-js/emotion/issues",
+      "author": "Emotion Contributors",
+      "isDirectDependency": true,
+      "isDevDependency": false
+    },
+    {
+      "name": "@emotion/styled",
+      "description": "styled API for emotion",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "11.11.0",
+        "time": "2023-05-06"
+      },
+      "repository": "https://github.com/emotion-js/emotion.git#main",
+      "homepage": "https://github.com/emotion-js/emotion/tree/main#readme",
+      "incidents": "https://github.com/emotion-js/emotion/issues",
+      "author": "",
+      "isDirectDependency": true,
+      "isDevDependency": false
+    },
+    {
+      "name": "react",
+      "description": "React is a JavaScript library for building user interfaces.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "18.2.0",
+        "time": "2022-06-14"
+      },
+      "repository": "https://github.com/facebook/react",
+      "homepage": "https://reactjs.org/",
+      "incidents": "https://github.com/facebook/react/issues",
+      "author": "",
+      "isDirectDependency": true,
+      "isDevDependency": false
+    },
+    {
+      "name": "react-dom",
+      "description": "React package for working with the DOM.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "18.2.0",
+        "time": "2022-06-14"
+      },
+      "repository": "https://github.com/facebook/react",
+      "homepage": "https://reactjs.org/",
+      "incidents": "https://github.com/facebook/react/issues",
+      "author": "",
+      "isDirectDependency": true,
+      "isDevDependency": false
+    },
+    {
+      "name": "@babel/core",
+      "description": "Babel compiler core.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "7.23.6",
+        "time": "2023-12-11"
+      },
+      "repository": "https://github.com/babel/babel",
+      "homepage": "https://babel.dev/docs/en/next/babel-core",
+      "incidents": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20core%22+is%3Aopen",
+      "author": "The Babel Team (https://babel.dev/team)",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@babel/preset-env",
+      "description": "A Babel preset for each environment.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "7.23.6",
+        "time": "2023-12-11"
+      },
+      "repository": "https://github.com/babel/babel",
+      "homepage": "https://babel.dev/docs/en/next/babel-preset-env",
+      "incidents": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20preset-env%22+is%3Aopen",
+      "author": "The Babel Team (https://babel.dev/team)",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@babel/preset-react",
+      "description": "Babel preset for all React plugins.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "7.23.3",
+        "time": "2023-11-09"
+      },
+      "repository": "https://github.com/babel/babel",
+      "homepage": "https://babel.dev/docs/en/next/babel-preset-react",
+      "incidents": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22area%3A%20react%22+is%3Aopen",
+      "author": "The Babel Team (https://babel.dev/team)",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@babel/preset-typescript",
+      "description": "Babel preset for TypeScript.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "7.23.3",
+        "time": "2023-11-09"
+      },
+      "repository": "https://github.com/babel/babel",
+      "homepage": "https://babel.dev/docs/en/next/babel-preset-typescript",
+      "incidents": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22area%3A%20typescript%22+is%3Aopen",
+      "author": "The Babel Team (https://babel.dev/team)",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@evilmartians/lefthook",
+      "description": "Simple git hooks manager",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "1.5.5",
+        "time": "2023-11-30"
+      },
+      "repository": "https://github.com/evilmartians/lefthook",
+      "homepage": "https://github.com/evilmartians/lefthook#readme",
+      "incidents": "https://github.com/evilmartians/lefthook/issues",
+      "author": "mrexox",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@svgr/webpack",
+      "description": "SVGR webpack loader.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "8.1.0",
+        "time": "2023-08-15"
+      },
+      "repository": "https://github.com/gregberge/svgr.git#main",
+      "homepage": "https://react-svgr.com",
+      "incidents": "https://github.com/gregberge/svgr/issues",
+      "author": "Greg Bergé",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@testing-library/jest-dom",
+      "description": "Custom jest matchers to test the state of the DOM",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "6.1.5",
+        "time": "2023-11-30"
+      },
+      "repository": "https://github.com/testing-library/jest-dom",
+      "homepage": "https://github.com/testing-library/jest-dom#readme",
+      "incidents": "https://github.com/testing-library/jest-dom/issues",
+      "author": "Ernesto Garcia",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@testing-library/react",
+      "description": "Simple and complete React DOM testing utilities that encourage good testing practices.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "14.1.2",
+        "time": "2023-11-17"
+      },
+      "repository": "https://github.com/testing-library/react-testing-library",
+      "homepage": "https://github.com/testing-library/react-testing-library#readme",
+      "incidents": "https://github.com/testing-library/react-testing-library/issues",
+      "author": "Kent C. Dodds",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@trivago/prettier-plugin-sort-imports",
+      "description": "A prettier plugins to sort imports in provided RegEx order",
+      "license": "Apache-2.0",
+      "currentVersion": {
+        "version": "4.3.0",
+        "time": "2023-11-10"
+      },
+      "repository": "https://github.com/trivago/prettier-plugin-sort-imports",
+      "homepage": "https://github.com/trivago/prettier-plugin-sort-imports#readme",
+      "incidents": "https://github.com/trivago/prettier-plugin-sort-imports/issues",
+      "author": "Ayush Sharma",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@tsconfig/recommended",
+      "description": "A base TSConfig for working with Recommended.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "1.0.3",
+        "time": "2023-09-16"
+      },
+      "repository": "https://github.com/tsconfig/bases",
+      "homepage": "https://github.com/tsconfig/bases#readme",
+      "incidents": "https://github.com/tsconfig/bases/issues",
+      "author": "",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@types/jest",
+      "description": "TypeScript definitions for jest",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "29.5.11",
+        "time": "2023-12-06"
+      },
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jest",
+      "incidents": "",
+      "author": "",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@types/node",
+      "description": "TypeScript definitions for node",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "20.10.5",
+        "time": "2023-12-17"
+      },
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node",
+      "incidents": "",
+      "author": "",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "description": "TypeScript plugin for ESLint",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "6.15.0",
+        "time": "2023-12-18"
+      },
+      "repository": "https://github.com/typescript-eslint/typescript-eslint",
+      "homepage": "https://github.com/typescript-eslint/typescript-eslint#readme",
+      "incidents": "https://github.com/typescript-eslint/typescript-eslint/issues",
+      "author": "",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "description": "An ESLint custom parser which leverages TypeScript ESTree",
+      "license": "BSD-2-Clause",
+      "currentVersion": {
+        "version": "6.15.0",
+        "time": "2023-12-18"
+      },
+      "repository": "https://github.com/typescript-eslint/typescript-eslint",
+      "homepage": "https://github.com/typescript-eslint/typescript-eslint#readme",
+      "incidents": "https://github.com/typescript-eslint/typescript-eslint/issues",
+      "author": "",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "babel-loader",
+      "description": "babel module loader for webpack",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "9.1.3",
+        "time": "2023-07-07"
+      },
+      "repository": "https://github.com/babel/babel-loader",
+      "homepage": "https://github.com/babel/babel-loader",
+      "incidents": "https://github.com/babel/babel-loader/issues",
+      "author": "Luis Couto <hello@luiscouto.pt>",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "babel-plugin-transform-react-remove-display-name",
+      "description": "Make React component `displayName` property available only in none production environment during the build",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "1.1.0",
+        "time": "2023-05-10"
+      },
+      "repository": "https://github.com/felixmosh/babel-plugin-transform-react-remove-display-name",
+      "homepage": "https://github.com/felixmosh/babel-plugin-transform-react-remove-display-name#readme",
+      "incidents": "https://github.com/felixmosh/babel-plugin-transform-react-remove-display-name/issues",
+      "author": "felixmosh",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "clean-webpack-plugin",
+      "description": "A webpack plugin to remove/clean your build folder(s).",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "4.0.0",
+        "time": "2021-09-01"
+      },
+      "repository": "https://github.com/johnagan/clean-webpack-plugin",
+      "homepage": "https://github.com/johnagan/clean-webpack-plugin",
+      "incidents": "https://github.com/johnagan/clean-webpack-plugin/issues",
+      "author": "John Agan",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "copy-webpack-plugin",
+      "description": "Copy files && directories with webpack",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "11.0.0",
+        "time": "2022-05-17"
+      },
+      "repository": "https://github.com/webpack-contrib/copy-webpack-plugin",
+      "homepage": "https://github.com/webpack-contrib/copy-webpack-plugin",
+      "incidents": "https://github.com/webpack-contrib/copy-webpack-plugin/issues",
+      "author": "Len Boyette",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "date-fns",
+      "description": "Modern JavaScript date utility library",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "3.0.0",
+        "time": "2023-12-18"
+      },
+      "repository": "https://github.com/date-fns/date-fns",
+      "homepage": "https://github.com/date-fns/date-fns#readme",
+      "incidents": "https://github.com/date-fns/date-fns/issues",
+      "author": "",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "eslint",
+      "description": "An AST-based pattern checker for JavaScript.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "8.56.0",
+        "time": "2023-12-15"
+      },
+      "repository": "https://github.com/eslint/eslint",
+      "homepage": "https://eslint.org",
+      "incidents": "https://github.com/eslint/eslint/issues/",
+      "author": "Nicholas C. Zakas",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "eslint-config-prettier",
+      "description": "Turns off all rules that are unnecessary or might conflict with Prettier.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "9.1.0",
+        "time": "2023-12-02"
+      },
+      "repository": "https://github.com/prettier/eslint-config-prettier",
+      "homepage": "https://github.com/prettier/eslint-config-prettier#readme",
+      "incidents": "https://github.com/prettier/eslint-config-prettier/issues",
+      "author": "Simon Lydell",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "eslint-formatter-pretty",
+      "description": "Pretty ESLint formatter",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "6.0.0",
+        "time": "2023-10-28"
+      },
+      "repository": "https://github.com/sindresorhus/eslint-formatter-pretty",
+      "homepage": "https://github.com/sindresorhus/eslint-formatter-pretty#readme",
+      "incidents": "https://github.com/sindresorhus/eslint-formatter-pretty/issues",
+      "author": "Sindre Sorhus",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "eslint-plugin-eslint-comments",
+      "description": "Additional ESLint rules for ESLint directive comments.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "3.2.0",
+        "time": "2020-05-25"
+      },
+      "repository": "https://github.com/mysticatea/eslint-plugin-eslint-comments",
+      "homepage": "https://github.com/mysticatea/eslint-plugin-eslint-comments#readme",
+      "incidents": "https://github.com/mysticatea/eslint-plugin-eslint-comments/issues",
+      "author": "Toru Nagashima",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "eslint-plugin-jest",
+      "description": "ESLint rules for Jest",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "27.6.0",
+        "time": "2023-10-26"
+      },
+      "repository": "https://github.com/jest-community/eslint-plugin-jest",
+      "homepage": "https://github.com/jest-community/eslint-plugin-jest#readme",
+      "incidents": "https://github.com/jest-community/eslint-plugin-jest/issues",
+      "author": "Jonathan Kim",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "eslint-plugin-jsonc",
+      "description": "ESLint plugin for JSON, JSONC and JSON5 files.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "2.11.1",
+        "time": "2023-12-14"
+      },
+      "repository": "https://github.com/ota-meshi/eslint-plugin-jsonc",
+      "homepage": "https://ota-meshi.github.io/eslint-plugin-jsonc/",
+      "incidents": "https://github.com/ota-meshi/eslint-plugin-jsonc/issues",
+      "author": "Yosuke Ota",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "eslint-plugin-jsx-a11y",
+      "description": "Static AST checker for accessibility rules on JSX elements.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "6.8.0",
+        "time": "2023-11-01"
+      },
+      "repository": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y",
+      "homepage": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y#readme",
+      "incidents": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/issues",
+      "author": "Ethan Cohen",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "eslint-plugin-prettier",
+      "description": "Runs prettier as an eslint rule",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "5.0.1",
+        "time": "2023-10-11"
+      },
+      "repository": "https://github.com/prettier/eslint-plugin-prettier",
+      "homepage": "https://github.com/prettier/eslint-plugin-prettier#readme",
+      "incidents": "https://github.com/prettier/eslint-plugin-prettier/issues",
+      "author": "Teddy Katz",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "eslint-plugin-promise",
+      "description": "Enforce best practices for JavaScript promises",
+      "license": "ISC",
+      "currentVersion": {
+        "version": "6.1.1",
+        "time": "2022-10-19"
+      },
+      "repository": "https://github.com/eslint-community/eslint-plugin-promise",
+      "homepage": "https://github.com/eslint-community/eslint-plugin-promise",
+      "incidents": "https://github.com/eslint-community/eslint-plugin-promise/issues",
+      "author": "jden",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "eslint-plugin-react",
+      "description": "React specific linting rules for ESLint",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "7.33.2",
+        "time": "2023-08-16"
+      },
+      "repository": "https://github.com/jsx-eslint/eslint-plugin-react",
+      "homepage": "https://github.com/jsx-eslint/eslint-plugin-react",
+      "incidents": "https://github.com/jsx-eslint/eslint-plugin-react/issues",
+      "author": "Yannick Croissant",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "eslint-plugin-react-hooks",
+      "description": "ESLint rules for React Hooks",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "4.6.0",
+        "time": "2022-06-14"
+      },
+      "repository": "https://github.com/facebook/react",
+      "homepage": "https://reactjs.org/",
+      "incidents": "https://github.com/facebook/react/issues",
+      "author": "",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "eslint-plugin-unicorn",
+      "description": "More than 100 powerful ESLint rules",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "49.0.0",
+        "time": "2023-10-29"
+      },
+      "repository": "https://github.com/sindresorhus/eslint-plugin-unicorn",
+      "homepage": "https://github.com/sindresorhus/eslint-plugin-unicorn#readme",
+      "incidents": "https://github.com/sindresorhus/eslint-plugin-unicorn/issues",
+      "author": "Sindre Sorhus",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "fork-ts-checker-webpack-plugin",
+      "description": "Runs typescript type checker and linter on separate process.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "9.0.2",
+        "time": "2023-10-29"
+      },
+      "repository": "https://github.com/TypeStrong/fork-ts-checker-webpack-plugin",
+      "homepage": "https://github.com/TypeStrong/fork-ts-checker-webpack-plugin#readme",
+      "incidents": "https://github.com/TypeStrong/fork-ts-checker-webpack-plugin/issues",
+      "author": "Piotr Oleś",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "glob",
+      "description": "the most correct and second fastest glob implementation in JavaScript",
+      "license": "ISC",
+      "currentVersion": {
+        "version": "10.3.10",
+        "time": "2023-09-27"
+      },
+      "repository": "https://github.com/isaacs/node-glob",
+      "homepage": "https://github.com/isaacs/node-glob#readme",
+      "incidents": "https://github.com/isaacs/node-glob/issues",
+      "author": "Isaac Z. Schlueter",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "html-webpack-plugin",
+      "description": "Simplifies creation of HTML files to serve your webpack bundles",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "5.5.4",
+        "time": "2023-12-06"
+      },
+      "repository": "https://github.com/jantimon/html-webpack-plugin",
+      "homepage": "https://github.com/jantimon/html-webpack-plugin",
+      "incidents": "https://github.com/jantimon/html-webpack-plugin/issues",
+      "author": "Jan Nicklas",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "jest",
+      "description": "Delightful JavaScript Testing.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "29.7.0",
+        "time": "2023-09-12"
+      },
+      "repository": "https://github.com/jestjs/jest",
+      "homepage": "https://jestjs.io/",
+      "incidents": "https://github.com/jestjs/jest/issues",
+      "author": "",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "jest-environment-jsdom",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "29.7.0",
+        "time": "2023-09-12"
+      },
+      "repository": "https://github.com/jestjs/jest",
+      "homepage": "https://github.com/jestjs/jest#readme",
+      "incidents": "https://github.com/jestjs/jest/issues",
+      "author": "",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "jest-junit",
+      "description": "A jest reporter that generates junit xml files",
+      "license": "Apache-2.0",
+      "currentVersion": {
+        "version": "16.0.0",
+        "time": "2023-04-15"
+      },
+      "repository": "https://github.com/jest-community/jest-junit",
+      "homepage": "https://github.com/jest-community/jest-junit#readme",
+      "incidents": "https://github.com/jest-community/jest-junit/issues",
+      "author": "Jason Palmer",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "jest-transform-stub",
+      "description": "Jest transform stub",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "2.0.0",
+        "time": "2019-02-03"
+      },
+      "repository": "https://github.com/eddyerburgh/jest-transform-stub",
+      "homepage": "https://github.com/eddyerburgh/jest-transform-stub#readme",
+      "incidents": "https://github.com/eddyerburgh/jest-transform-stub/issues",
+      "author": "Edd Yerburgh",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "prettier",
+      "description": "Prettier is an opinionated code formatter",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "3.1.1",
+        "time": "2023-12-10"
+      },
+      "repository": "https://github.com/prettier/prettier",
+      "homepage": "https://prettier.io",
+      "incidents": "https://github.com/prettier/prettier/issues",
+      "author": "James Long",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "ts-jest",
+      "description": "A Jest transformer with source map support that lets you use Jest to test projects written in TypeScript",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "29.1.1",
+        "time": "2023-06-30"
+      },
+      "repository": "https://github.com/kulshekhar/ts-jest",
+      "homepage": "https://kulshekhar.github.io/ts-jest",
+      "incidents": "https://github.com/kulshekhar/ts-jest/issues",
+      "author": "Kulshekhar Kabra",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "ts-node",
+      "description": "TypeScript execution environment and REPL for node.js, with source map support",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "10.9.2",
+        "time": "2023-12-08"
+      },
+      "repository": "https://github.com/TypeStrong/ts-node",
+      "homepage": "https://typestrong.org/ts-node",
+      "incidents": "https://github.com/TypeStrong/ts-node/issues",
+      "author": "Blake Embrey",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "typescript",
+      "description": "TypeScript is a language for application scale JavaScript development",
+      "license": "Apache-2.0",
+      "currentVersion": {
+        "version": "5.3.3",
+        "time": "2023-12-06"
+      },
+      "repository": "https://github.com/Microsoft/TypeScript",
+      "homepage": "https://www.typescriptlang.org/",
+      "incidents": "https://github.com/Microsoft/TypeScript/issues",
+      "author": "Microsoft Corp.",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "webpack",
+      "description": "Packs ECMAScript/CommonJs/AMD modules for the browser. Allows you to split your codebase into multiple bundles, which can be loaded on demand. Supports loaders to preprocess files, i.e. json, jsx, es7, css, less, ... and your custom stuff.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "5.89.0",
+        "time": "2023-10-14"
+      },
+      "repository": "https://github.com/webpack/webpack",
+      "homepage": "https://github.com/webpack/webpack",
+      "incidents": "https://github.com/webpack/webpack/issues",
+      "author": "Tobias Koppers @sokra",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "webpack-cli",
+      "description": "CLI for webpack & friends",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "5.1.4",
+        "time": "2023-06-07"
+      },
+      "repository": "https://github.com/webpack/webpack-cli",
+      "homepage": "https://github.com/webpack/webpack-cli/tree/master/packages/webpack-cli",
+      "incidents": "https://github.com/webpack/webpack-cli/issues",
+      "author": "",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "webpack-deadcode-plugin",
+      "description": "Webpack plugin to detect unused files and unused exports in used files",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "0.1.17",
+        "time": "2022-07-08"
+      },
+      "repository": "https://github.com/MQuy/webpack-deadcode-plugin",
+      "homepage": "https://github.com/MQuy/webpack-deadcode-plugin#readme",
+      "incidents": "https://github.com/MQuy/webpack-deadcode-plugin/issues",
+      "author": "MQuy",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "webpack-dev-server",
+      "description": "Serves a webpack app. Updates the browser on changes.",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "4.15.1",
+        "time": "2023-06-09"
+      },
+      "repository": "https://github.com/webpack/webpack-dev-server",
+      "homepage": "https://github.com/webpack/webpack-dev-server#readme",
+      "incidents": "https://github.com/webpack/webpack-dev-server/issues",
+      "author": "Tobias Koppers @sokra",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    },
+    {
+      "name": "webpack-merge",
+      "description": "Variant of merge that's useful for webpack configuration",
+      "license": "MIT",
+      "currentVersion": {
+        "version": "5.10.0",
+        "time": "2023-10-16"
+      },
+      "repository": "https://github.com/survivejs/webpack-merge",
+      "homepage": "https://github.com/survivejs/webpack-merge",
+      "incidents": "https://github.com/survivejs/webpack-merge/issues",
+      "author": "Juho Vepsalainen",
+      "isDirectDependency": false,
+      "isDevDependency": true
+    }
+  ],
+  "errors": {},
+  "duplicates": {}
+}

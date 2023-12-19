@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.strict.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "verbatimModuleSyntax": false,
+    "sourceMap": true // just to make sure, for the proper coverage results
+  },
+  "include": ["src/**/*", "test/**/*"]
+}

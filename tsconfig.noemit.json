@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Base Svitovyda React Project",
+  "compilerOptions": {
+    "noEmit": true,
+    "lib": ["dom", "ES2022"],
+    "target": "es6",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "allowJs": false,
+    "jsx": "react",
+    "sourceMap": true, // in order to make tsc compile all files
+    "declaration": false,
+    "declarationMap": false,
+    "removeComments": true,
+    "incremental": false,
+    "stripInternal": true,
+
+    "downlevelIteration": true,
+    "preserveConstEnums": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "lib",
+    "output",
+    "coverage",
+    "public",
+    "dist",
+    ".github",
+    ".husky",
+    ".git",
+    ".idea",
+    ".vscode"
+  ]
+}

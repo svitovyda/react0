@@ -18,10 +18,11 @@ project.xcworkspace
 dist/
 artifacts/
 tsconfig.deep.json
-.eslintcache
 *.history
 *.tsbuildinfo
 **/.project
 coverage/
 *junit.xml
 buildinfo.json
+.DS_Store
+dependencies-full.json
